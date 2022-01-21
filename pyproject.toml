@@ -1,0 +1,17 @@
+[build-system]
+# PEP 518 - what is required to build
+requires = ["wheel", "setuptools>=42", "setuptools_scm[toml]>=3.4"]
+# PEP 517 - what function to call to build
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = ["-ra", "--showlocals", "--strict-markers", "--strict-config"]
+xfail_strict = true
+filterwarnings = ["error"]
+testpaths = [
+    "tests",
+]
+
+[tool.setuptools_scm]
+write_to = "src/fakelish/_scm_version.py"

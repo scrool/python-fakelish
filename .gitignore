@@ -1,0 +1,17 @@
+# Ignores are based on [Github gitignore](https://github.com/github/gitignore).
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Unit test / coverage reports
+.tox/
+
+# setuptools-scm write_to:
+/src/fakelish/_scm_version.py
