@@ -60,4 +60,4 @@ $ curl -s https://raw.githubusercontent.com/nwtgck/fakelish-npm/develop/lib/word
 ## Related projects
 
 * Go language and CLI: <https://github.com/nwtgck/go-fakelish>
-* JavaScript/TypeScript: <https://github.com/nwtgck/go-fakelish>
+* JavaScript/TypeScript: <https://github.com/nwtgck/fakelish-npm>
